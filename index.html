@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulário</b></legend>
+                <br>
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="labelInput">Nome Completo</label>
+                    </div>
+
+                    
+
+                        <p>Confirmação de Presença:</p>
+                            <input type="radio" id="sim" name="confirm" value="Sim" required>
+                                <label for="sim">Sim</label>
+                            <input type="radio" id="nao" name="confirm" value="Não" required>
+                                <label for="nao">Não</label>
+                                <br><br>
+                            <label>Qtd de Pessoas</label>
+                            <select class="qtd">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+
+                    <br>
+
+                        <div>
+                            <h4 class="cardapio">Cardápio do Restaurante<h4>
+                        </div>
+                        <hr>
+                        <div class="itens">
+                            <table cellPadding=1 width="100%" border=0>
+                                <tbody>
+                                <tr>
+                                <td valign=top width="50%"> Lasanha 
+                                    <p>Macarrão</p>
+                                    <p>Bobó de Camarão</p>
+                                    <p>Arroz</p></td>
+                                <td valign=top width="50%">Feijão 
+                                    <p>Filé Mignon</p>
+                                    <p>Saladas</p>
+                                    <p>Doces</p>
+                                </td></tr></tbody></table>
+                        </div>        
+                       
+                        <hr>
+                    <br><br>
+
+                        <div class="textinho">
+                            <textarea id="txtniver" name="txtniver" rows="10" cols="44" placeholder="Escreva um Texto para o Aniversariante"></textarea>
+                        </div>
+
+                    <br>
+                        
+                        <div>
+                            <input type="submit" name="submit" id="submit">
+                        </div>
+                       
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
